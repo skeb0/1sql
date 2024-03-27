@@ -1,4 +1,4 @@
-#CREATE<br>
+
 <br>
 CREATE TABLE PUBLISHER<br>
 (NAME VARCHAR (20) PRIMARY KEY, <br>
@@ -48,7 +48,7 @@ FOREIGN KEY (BRANCH_ID) REFERENCES LIBRARY_BRANCH (BRANCH_ID) ON DELETE CASCADE)
 
 
 
-#INSERT<br>
+
 INSERT INTO PUBLISHER VALUES ('MCGRAW-HILL', 'BANGALORE', 9989076587);<br>
 INSERT INTO PUBLISHER VALUES ('PEARSON', 'NEWDELHI', 988907656);<br>
 INSERT INTO PUBLISHER VALUES ('RANDOM HOUSE', 'HYDERABAD', 745567934);<br>
@@ -96,7 +96,7 @@ INSERT INTO BOOK_LENDING VALUES (1, 11, 104, '2017-04-12', '2017-05-12');<br>
 
 
 
-#QUERIES<br>
+
 1. Retrieve details of all books in the library – id, title, name of publisher, authors, 
 number of copies in each branch, etc. 
 <br>
